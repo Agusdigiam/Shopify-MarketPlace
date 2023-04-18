@@ -1,0 +1,30 @@
+/*Settings of MarketPlace*/
+
+.Menu-content{
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+li{
+    justify-content: space-between;
+    padding: 23px;
+    
+    
+}
+a:hover{
+    color: orangered;
+}
+li:hover{
+    text-decoration: underline;
+    
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

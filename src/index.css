@@ -1,0 +1,29 @@
+/*Default Settings*/
+
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background: rgb(251,250,255);
+  background: linear-gradient(45deg, rgba(251,250,255,1) 0%, rgba(255,255,255,1) 50%, rgba(135,235,255,1) 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Header Logo and Tittle*/
+
+.App-logo{
+  width: 4%;
+  position: absolute;
+  display: flex;
+}
+
+.App-title{
+  position: relative;
+  padding-left: 55px;
+  padding-top: 15px;
+  color: black;
+}
+
