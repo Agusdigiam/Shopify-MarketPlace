@@ -7,8 +7,7 @@
 }
 
 body{
-  background: rgb(251,250,255);
-  background: linear-gradient(45deg, rgba(251,250,255,1) 0%, rgba(255,255,255,1) 50%, rgba(135,235,255,1) 100%);
+  background: #cdf7e5;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -25,5 +24,20 @@ body{
   padding-left: 55px;
   padding-top: 15px;
   color: black;
+}
+
+.App-title:hover{
+  color: orangered;
+  cursor: pointer;
+}
+
+@media screen and (max-width:550px){
+  .App-logo{
+    display: none;
+  }
+  .App-title{
+    margin: 0;
+    padding: 0;
+  }
 }
 
