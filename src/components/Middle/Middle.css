@@ -1,0 +1,56 @@
+.Middle-search{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    min-width: 30%;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    
+
+}
+.Middle-tittle{
+    display: flex;
+    font-size: 35px;
+    color: orangered;
+    font-weight: bold;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.Middle-content{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.Middle-banner{
+    width: 100%;
+}
+
+
+
+
+
+
+/*Medias Querys*/
+
+
+@media screen and (max-width: 550px){
+    .Middle-tittle{
+        display: none;
+    }
+    
+    .Middle-search{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .Middle-tittle{
+        text-align: center;
+    }
+    
+}

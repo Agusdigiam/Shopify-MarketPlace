@@ -24,12 +24,66 @@ body{
   padding-left: 55px;
   padding-top: 15px;
   color: black;
+  
 }
 
 .App-title:hover{
   color: orangered;
   cursor: pointer;
 }
+
+.App-cart{
+  display: flex;
+  position: relative;
+  align-self: center;
+  width: 2%;
+  float: right;
+  top: 20px;
+  right: 50px;
+}
+
+.App-login{
+  display: flex;
+  position: relative;
+  align-self: center;
+  width: 2%;
+  float: right;
+  top: 20px;
+  right: 30px;
+}
+
+
+@media screen and (max-width: 730px){
+  .App-cart{
+    display: flex;
+    position: relative;
+    align-self: center;
+    width: 4%;
+    float: right;
+    top: 20px;
+    right: 50px;
+  }
+  .App-logo{
+    width: 8%;
+  }
+  .App-login{
+    width: 4%;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .App-cart{
+    display:none;
+  }
+  .App-login{
+    display: none;
+  }
+}
+
+
+
+/*Media Querys*/
+
 
 @media screen and (max-width:550px){
   .App-logo{
