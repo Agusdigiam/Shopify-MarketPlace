@@ -4,11 +4,13 @@ import App from '../src/components/App'
 import './index.css'
 import Menu from './components/Menu/Menu.jsx' 
 import Middle from './components/Middle/Middle.jsx'
+import Cards from './components/Cards/Cards.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
     <Menu />
     <Middle />
+    <Cards />
   </React.StrictMode>,
 )

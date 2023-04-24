@@ -10,6 +10,7 @@ export function Middle() {
         <p className='Middle-tittle' >¡Encuentra mas de 1.000 Productos en Shoppee!</p>
         <div className='Middle-content'>
             <input className='Middle-search' type="text" placeholder='Buscar en Shoppee'/>
+            <img className='Middle-glass' src="../src/assets/glass.svg" alt="Search" />
         </div>
     </div>
     

@@ -1,0 +1,50 @@
+/*Details from de Cards of Shoppee*/
+
+
+.Card-content {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    
+}
+
+.Card-image {
+
+  width: 13%;
+  padding-top: 30px;
+  border-radius: 25px 25px ;
+  padding: 10px;
+
+}
+
+.Card-button {
+
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  cursor: pointer;
+}
+
+.Card-description {
+    
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

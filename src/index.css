@@ -86,6 +86,9 @@ body{
 
 
 @media screen and (max-width:550px){
+  .App-title{
+    text-align: center;
+  }
   .App-logo{
     display: none;
   }

@@ -8,6 +8,7 @@
     border: none;
     margin: 0;
     
+    
 
 }
 .Middle-tittle{
@@ -30,7 +31,10 @@
     width: 100%;
 }
 
-
+.Middle-glass{
+    width: 2%;
+    
+}
 
 
 
@@ -40,11 +44,14 @@
 
 @media screen and (max-width: 550px){
     .Middle-tittle{
-        display: none;
+        font-size: 23px;
+        padding-bottom: 12px;
     }
-    
+    .Middle-banner{
+        padding-bottom: 12px;
+    }
     .Middle-search{
-        display: none;
+        text-align: center;
     }
 }
 
