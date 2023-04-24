@@ -1,3 +1,4 @@
 # Shopify-MarketPlace
 
-_This is a Website for Shop made by me Agustin Di Giambatista__
+"Welcome to my e-commerce web page, built using the latest technologies including React, JavaScript, CSS and HTML. This page showcases my skills and expertise in creating dynamic and visually appealing online shopping experiences. Take a look around and explore the features and functionality I've implemented using these powerful tools to make your shopping experience seamless and enjoyable."
+
