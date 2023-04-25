@@ -5,6 +5,7 @@ import './index.css'
 import Menu from './components/Menu/Menu.jsx' 
 import Middle from './components/Middle/Middle.jsx'
 import Cards from './components/Cards/Cards.jsx'
+import Cat from './components/Category/Cat'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Menu />
     <Middle />
     <Cards />
+    <Cat />
   </React.StrictMode>,
 )

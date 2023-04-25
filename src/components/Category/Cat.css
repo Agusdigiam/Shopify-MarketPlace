@@ -1,0 +1,49 @@
+.Cat-tittle{
+    font-size: 30px;
+    color: orangered;
+    padding-top: 50px;
+    padding-bottom: 35px;;
+    text-align: center;
+    
+}
+
+.Cat-select{
+
+text-align: center;
+
+
+}
+
+#Category{
+font-size: 25px;
+width: 40%;
+text-align: center;
+justify-content: center;
+align-items: center;
+align-self: center;
+align-content: center;
+cursor: pointer; 
+color: orangered; 
+}
+
+.Cat-Ban_img{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+/*Media Querys*/
+
+@media screen and (max-width: 530px){
+    #Category{
+        width: 60%;
+        font-size: 16px;
+        text-align: center;
+        
+    }
+    .Cat-tittle{
+        font-size: 30px;
+    }
+}
