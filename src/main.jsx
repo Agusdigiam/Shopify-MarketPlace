@@ -5,7 +5,8 @@ import './index.css'
 import Menu from './components/Menu/Menu.jsx' 
 import Middle from './components/Middle/Middle.jsx'
 import Cards from './components/Cards/Cards.jsx'
-import Cat from './components/Category/Cat'
+import Cat from './components/Category/Cat.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Middle />
     <Cards />
     <Cat />
+    <Footer />
   </React.StrictMode>,
 )

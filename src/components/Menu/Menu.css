@@ -7,11 +7,13 @@
     display: flex;
     float: right;
     
+    
 }
 
 li{
     justify-content: space-between;
     padding: 23px;
+    
     
     
 }

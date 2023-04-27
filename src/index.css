@@ -72,6 +72,12 @@ body{
 }
 
 @media screen and (max-width: 550px){
+  .App{
+    background-color: orangered;
+  }
+  .App-title{
+    color: white;
+  }
   .App-cart{
     display:none;
   }
