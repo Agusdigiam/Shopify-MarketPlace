@@ -2,10 +2,12 @@
 
 
 .Card-content {
-    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 100px;
     display: flex;
     width: 100%;
-    padding-left: 60px;
+
     
 }
 .cardconteiner{
@@ -18,7 +20,7 @@
 
 .Card-image {
 
-  width: 60%;
+  width: 50%;
   padding-top: 30px;
   border-radius: 25px 25px ;
   padding: 10px;

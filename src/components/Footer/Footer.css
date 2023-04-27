@@ -1,29 +1,16 @@
-.Footer-Content{
+footer{
     background-color: #ee4d2d;
     padding-top: 30px;
     padding-bottom: 30px;
-    text-decoration: none;
     color: white;
     font-weight: bolder;
     display: flex;
     padding-left: 20px;
-    text-decoration: none;
-    list-style: none;
     cursor: pointer;
-    gap: 200px;
+    gap: 95px;
+
 }
-.li{
-    list-style: none;
-}
-.ul{
-    text-decoration: none;
-    color: white;
-    list-style: none;
-}
-.Footer-img{
-    width: 10%;
-    position: relative;
-}
+
 .Footer-p{
     padding-top: 40px;
     text-align: center;

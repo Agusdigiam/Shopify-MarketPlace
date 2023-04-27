@@ -47,3 +47,9 @@ color: orangered;
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 730px){
+    #Category{
+        font-size: 17px;
+    }
+}

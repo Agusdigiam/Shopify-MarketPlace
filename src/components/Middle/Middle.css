@@ -32,11 +32,11 @@
 }
 
 .Middle-glass{
-    width: 2%;
+    width: 3.3%;
+    background-color: white;
+    border-radius: 2px;
     
 }
-
-
 
 
 /*Medias Querys*/
@@ -54,6 +54,10 @@
         text-align: center;
         width: 500px;
     }
+
+    .Middle-glass{
+     display: none;  
+    }
     
 }
 
@@ -61,5 +65,8 @@
     .Middle-tittle{
         text-align: center;
     }
-    
+    .Middle-glass{
+        width: 6.1%;
+        
+    }
 }

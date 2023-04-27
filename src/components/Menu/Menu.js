@@ -1,13 +1,9 @@
-const nav = document.querySelector("#nav");
-const abrir = document.querySelector("#abrir");
-const cerrar = document.querySelector("#cerrar");
+const nav = document.getElementById('#nav');
+const button = document.getElementById('#abrir');
+const buttonc = document.getElementById('#cerrar');
 
 
-
-
-/*abrir.addEventListener('click', () => {
-    nav.classList.add('visible')
-})*/
-
-
-
+/*button.addEventListener('click', ()=> (
+    nav.classList.toggle("visible")
+))
+*/

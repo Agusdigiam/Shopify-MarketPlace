@@ -1,5 +1,7 @@
 /*Settings of MarketPlace*/
-
+.Menu-content_main{
+    display: flex;
+}
 .Menu-content{
     align-items: center;
     text-decoration: none;
@@ -19,9 +21,11 @@ li{
 }
 a:hover{
     color: orangered;
+    list-style: none;
 }
 li:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    list-style: none;
     
 }
 
@@ -41,21 +45,22 @@ a{
 }
 
 @media screen and (max-width:550px){
-    .abrir-menu{
+    .abrir-menu {
         display: block;
+        
     }
     .Menu-nav{
         display: none;
         opacity: 0;
         visibility: hidden;
     }
-    .Menu-nav_visible{
+    .Menu-navvisible{
         opacity: 1;
         visibility: visible;
     }
 
     .Menu-nav{
-        display: flex;
+
         flex-direction: column;
         align-items: end;
         gap: 1rem;

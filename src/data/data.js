@@ -1,6 +1,6 @@
 const data = [{
     id: 1,
-    nameProduct: "Zapatillas",
+    nameProduct: "Bicicleta",
     price: 34,
     urlImage: " " ,
     Quantity: 1,  
@@ -14,22 +14,15 @@ const data = [{
 },
 {
     id: 3,
-    nameProduct: "Iphone 14 Pro Max",
+    nameProduct: "Escritorio",
     price: 1000,
     urlImage: " " ,
     Quantity: 1,  
 },
 {
     id: 4,
-    nameProduct: "Auriculares In- Ear",
+    nameProduct: "Indumentaria",
     price: 65,
-    urlImage: " " ,
-    Quantity: 1,  
-},
-{
-    id: 5,
-    nameProduct: "SmartWatch Xiaomi",
-    price: 100,
     urlImage: " " ,
     Quantity: 1,  
 },
